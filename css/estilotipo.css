@@ -1,12 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
-.tipo {color: #FC3};
+.tipo {color: #63F};
 
 
 
-.p {
-      font-size:50px; 
-      font-family: Arial, Helvetica, sans-serif; 
-      color: #000;
+.nosotros{ 
+	margin: 50px 20px;
+  	font-family: Arial,Verdana, Helvetica, sans-serif, Georgia, "Times New Roman", Times, serif;
+  	line-height: 18px;
+   	font-size: 40px;
 }
