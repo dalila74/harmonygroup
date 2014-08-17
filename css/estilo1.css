@@ -1,6 +1,7 @@
-ul
+
+ul 
 {
-width:40%;
+width:35%;
 margin:0 auto;
 padding:0;
  }
@@ -14,7 +15,7 @@ ul>li
 {
 	position:relative;
 	float:left;
-	width:140px;
+	width:120px;
 	background:grey;
 }
 	 ul li a
@@ -41,7 +42,9 @@ ul>li
 		 {
 			 font-weight:800;
 			 color:black;
-		 }	
+		 }
+		  
+		 	
 		  
 		
 	 
