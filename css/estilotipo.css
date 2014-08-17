@@ -5,9 +5,16 @@
 
 
 
-.nosotros{ 
+p.nosotros{ 
 	margin: 50px 20px;
   	font-family: Arial,Verdana, Helvetica, sans-serif, Georgia, "Times New Roman", Times, serif;
   	line-height: 18px;
-   	font-size: 40px;
+   	font-size: 30px;
+}
+
+H1.ilus{
+	margin: 50px 20px;
+  	font-family: Arial,Verdana, Helvetica, sans-serif, Georgia, "Times New Roman", Times, serif;
+  	line-height: 20px;
+   	font-size: 50px;
 }
