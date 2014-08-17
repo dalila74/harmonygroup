@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,html{
+	margin: 0;
+	padding: 0;
+}
+ol, ul{
+	list-style: none;
+}
+h1,h2,h3,h4,h5{
+	font-size:100%;
+	font-weight: normal;
+}
+a{
+	color:#333;
+	text-decoration:none;
+}
+body{
+	color: #CCC;
+	overflow: scroll;
+}
+.container{
+	position:relative;
+	text-align:center;
+}
+.container >header{
+	padding: 20px 30px 10px 20px;
+	margin: 0 20px 10px 20px;
+	position:relative;
+	display:block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	text-align:center;
+}
+
+.container > header h1 span{
+	color: #36F;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+}
+
+.container > header h1{
+	position:relative;
+	color: rgba(27,54,81,0.8);
+	padding: 0 0 5px 0;
+}
+.container > header h2, p.info {
+	color: #36C;
+	text-shadow: 0 1px 1px rgba(255,255,255,1);
+}
+@media screen and(max-width: 767px){
+	.container >header{
+		text-align:center;
+	}
+	o.codrops-demos{
+		position:relative;
+		top: auto;
+		left:auto;
+	}
+}
+<!----------------------------------comment------------------------------------->
+
+.thumb{
+	width:900px;
+	margin: 0 auto;
+}
+
+.thumb li{
+	float:left;
+	margin: 5px;
+	position:relative;
+}
+
+.thumb li > a, .thumb li > a img{
+	display:block;
+}
+
+.thumb li > a{
+	width: 150px;
+	height: 150px;
+	position:relative;
+	padding: 10px;
+	background: #CCC;
+	border-radius: 4px;
+	-moz- border-radius: 4px;
+}
+.thumb li > a, span{
+	position:absolute;
+	width: 150px;
+	height: 150px;
+	top: 10px;
+	left: 10px;
+	text-align:center;
+	line-height: 150px;
+	color: rgba(27,54,81,0.6);
+	font-size: 24px;
+	opacity: 0;
+	background: rgb(241,210,194);
+	background: -moz- radial- gradien(center,ellipse,cover, rgba(255,255,255,0.56) 0% rgba(127,179,189,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px center center,100%, color-stop(0%, rgba(255,255,255,0.56)), color-stop(100%, rgba(241,210,194,1));
+	background: -webkit- radial- gradien(center,ellipse,cover, rgba(255,255,255,0.56) 0% rgba(127,179,189,1) 100%);
+	background: -moz-gradient(radial, center center, 0px center center,100%, color-stop(0%, rgba(255,255,255,0.56)), color-stop(100%, rgba(241,210,194,1));
+	-webkit- transition: opacity 0.3s linear;
+	-moz- transition: opacity 0.3s linear;
+	transition: opacity 0.3s linear;
+}
+
+.thumb li > a:hover span{
+	opacity: 1;
+}
+
+.normal{
+	width: 0px;
+	height: 0px;
+	position:fixed;
+	overflow:hidden;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	z-index: 99;
+	text-align: center;
+	background: rgb(241,210,194);
+	background: -moz- radial- gradien(center,ellipse,cover, rgba(255,255,255,0.56) 0% rgba(127,189,127,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px center center,100%, color-stop(0%, rgba(255,255,255,0.56)), color-stop(100%, rgba(241,210,194,1));
+	background: -webkit- radial- gradien(center,ellipse,cover, rgba(255,255,255,0.56) 0% rgba(127,189,127,1) 100%);
+	background: -moz-gradient(radial, center center, 0px center center,100%, color-stop(0%, rgba(255,255,255,0.56)), color-stop(100%, rgba(241,210,194,1));
+	background: radial- gradien(center,ellipse,cover, rgba(255,255,255,0.56) 0% rgba(127,189,127,1) 100%);
+}
+.normal > div{
+	position:relative;
+	color: rgba(24,54,81,0.8);
+	width: 550px;
+	height: 80px;
+	margin: 40px auto 0 auto;
+	text-shadow: 0 1px 1px rgb(255,255,255,0.6);
+}
+
+.normal div h2, .normal div p {
+	padding: 0px 20px;
+	width: 200px;
+	height: 60px;
+}
+
+.normal div h2{
+	font-size: 26px;
+	float: left;
+	text-align: right;
+	border-right: 1px solid rgba(27,54,81,0.4);
+}
+
+.normal h2 span{
+	display:block;
+	line-height: 6px;
+}
+
+.normal div p{
+	font-size: 14px;
+	text-align: left;
+	float:left;
+	width: 260pc
+}
+
+.normal a .close{
+	background: rgba(27,54,81,0.8);
+	z-index: 1001;
+	color:#CCC;
+	position:absolute;
+	top: 43px;
+	left: 50px;
+	font-size: 15px;
+	line-height: 26px;
+	text-align:center;
+	width: 50px;
+	height: 23px;
+	overflow:hidden;
+	margin-left: -25px;
+	padding: 0;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.normal img{
+	height: 100%;
+	max-height: 100%;
+	position:relative;
+	opacity: 0;
+	-webkit- transition: opcaity 0.5s linear;
+	-moz- transition: opcaity 0.5s linear;
+	transition: opcaity 0.5s linear;
+}
+
+.prev , .next{
+	text-indent: -9000px;
+	position:absolute;
+	top: -32px;
+	width: 24px;
+	height: 25px;
+	left: 50px;
+	opacity: 0.8px;
+}
+.prev:hover, .next:hover{
+	opacity: 1;
+}
+
+.prev{
+	margin-left:-30px;
+	background: transparent;
+}
+.next{
+	margin-left:6px;
+	background: transparent;
+}
+.normal:target{
+	width:auto;
+	height:auto;
+	bottom: 0px;
+	right: 0px;
+	padding: 80px 100px 120px 100px;
+}
+.normal:target img, .normal:target a .close{
+	opacity: 1;
+}
