@@ -18,8 +18,8 @@
 }
 
 #ex2 img{
-   height: 100px;
-   width: 143px;
+   height: auto;
+   width: auto;
    margin: 0;
    -webkit-transition: all 1s ease;
    -moz-transition: all 1s ease;
