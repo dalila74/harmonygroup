@@ -9,7 +9,30 @@
 <link rel="stylesheet" type="text/css" href="../css/estilotipo.css">
 <link rel="stylesheet" type="text/css" href="../css/estilo1.css">
 <link rel="stylesheet" type="text/css" href="../css/body.css" id="videoBG">
-
+<style type="text/css">
+#apDiv1 {
+	position: absolute;
+	width: 307px;
+	height: 35px;
+	z-index: 1;
+	left: 710px;
+	top: 196px;
+	text-align: center;
+	color: #000;
+}
+#apDiv2 {
+	position: absolute;
+	width: 1499px;
+	height: 54px;
+	z-index: 1;
+	left: -40px;
+	top: 721px;
+	text-align: center;
+	background-color: #990000;
+	color: #FFF;
+}
+</style>
+</style>
 </head>
 
 
@@ -24,39 +47,69 @@
          <li><a href="quienessomos.html">Quienes somos</a></li>
          <li><a href="#">Contactenos</a></li>
          <li><a href="#">Portafolio</a>
-             <ul>
-                 <li><a href="fotografia.html">Fotografía</a></li>
-                 <li><a href="ilustraciones.html">Ilustración</a></li>
-                 <li><a href="modelado.html">Modelado 3D</a></li>
-                 <li><a href="serigrafia.html">Serigrafía</a></li> 
-             </ul>
+         <ul>
+         <li><a href="fotografia.html">Fotografía</a></li>
+         <li><a href="ilustraciones.html">Ilustración</a></li>
+         <li><a href="modelado.html">Modelado 3D</a></li>
+         <li><a href="serigrafia.html">Serigrafía</a></li> 
+         </ul>
          </li>
     </ul>
 </nav>
 </header>
-<br><br><br><br><br><br><br><br>
-<div align="center"> 
-<div id="formulario" class="grid_6 last">
-        <h3 class="grid_6 titulo">ENVÍANOS UN MENSAJE</h3>
-        
-        
-        <form>Nombre<input type="text"></form>
-        <form>Email<input type="text"></form>
-        <form>Asunto<input type="text"></form>
-        <form>Mensaje<input type="text"></form>
-        <input type="submit"></button>
-<a href="https://twitter.com/HarmonyGroup1"><img src="../images/facebook-boton.png" width="100" height="25" alt=""></a>
-<a href="https://www.facebook.com/harmonygroup99"><img src="../images/iconos-png-twitter-.png" width="80" height="25" alt="" ></a>
-  
-</DIV>
-</div>
-<br><br>
-<footer class="tipo"> 
-<strong>harmonygroup@gmail.com</strong> </footer>
-<footer class="tipo"> 
-<strong>harmonygroup@outlook.com </strong> </footer>
+<p><br>
+</p>
+<p><br>
+</p>
+<div align="center">
 
+<p>&nbsp;</p>
+<div align="center"> 
+  <div id="formulario" class="grid_6 last">
+    <h3 class="grid_6 titulo">ENVÍANOS UN MENSAJE</h3>
+        
+        
+       
+  </DIV>
+</div>
+<form name="form1" method="post" action="">
+  <table width="27%" border="0" align="center">
+    <tr>
+      <td width="34%">Nombre</td>
+      <td width="66%"><label for="textfield"></label>
+      <input type="text" name="textfield" id="textfield"></td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td><label for="textfield2"></label>
+      <input name="textfield2" type="text" id="textfield2"></td>
+    </tr>
+    <tr>
+      <td>Asunto</td>
+      <td><label for="textfield3"></label>
+      <input type="text" name="textfield3" id="textfield3"></td>
+    </tr>
+    <tr>
+      <td height="58">Mensaje</td>
+      <td><label for="textfield4"></label>
+        <label>
+          <textarea name="textarea" id="textarea">Escriba su mensaje</textarea>
+      </label></td>
+    </tr>
+    <tr>
+      <td height="33">&nbsp;</td>
+      <td><input type="submit" name="button" id="button" value="Enviar">
+        <br>
+        <footer class="tipo"></footer></td>
+    </tr>
+  </table>
+</form>
+<div id="apDiv2">
+  <footer class="tipo"><strong>harmonygroup@gmail.com</strong></footer>
+  <footer class="tipo"> <strong>harmonygroup@outlook.com</strong></footer>
+</div>
+<br>
 <video id="videoBG" loop autoplay preload="true" 
-<source src="../videos/fondo4.mp4" type="video/mp4"></video>
+<source src="../videos/fondo4.mp4" type="video/mp4">
 </body>
 </html>
