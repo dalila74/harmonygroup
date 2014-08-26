@@ -1,4 +1,3 @@
-
 ul 
 {
 width:35%;
@@ -50,4 +49,12 @@ ul>li
 	 
 	  
 		 
-	 
+	 #apDiv18 {
+	font-weight: bold;
+}
+#apDiv18 {
+	color: #FFF;
+}
+#correo {
+	text-align: center;
+}
