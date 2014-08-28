@@ -47,7 +47,7 @@
 .dimension img
 {
 	width: 100%;
-*min-width:25px;
+min-width:25px;
 	
 }
 
@@ -210,7 +210,7 @@ ul li:hover ul {
 }
 .ex3 img img {
    width: 100%;
-   *max-width: 960px;
+   max-width: 960px;
    min-width:800px;
 }
 
@@ -300,8 +300,8 @@ text-shadow:   0px 4px 3px rgba(0,0,0,0.4),
 
 .redes{
 position:relative;	
-left:100px;			  
-margin-left:800px;
+left:1000px;			  
+margin-left:800;
 top:-390px;
 margin-top:-330px;
 width:35px;
@@ -311,7 +311,7 @@ z-index: 2;
 }
 .redesg{
 position:relative;	
-left:100px;			  
+left:200px;			  
 margin-left:800px;
 top:-100px;
 margin-top:40px;
@@ -581,3 +581,4 @@ z-index: 3;
 {
 	width: 40%;
 	height:auto;
+	}
