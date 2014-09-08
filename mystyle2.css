@@ -1,0 +1,31 @@
+ / * Estilo de menú de enlaces * /
+ li a {
+	 display: block;
+	 min-width: 140px;
+	 altura: 50px;
+	 text-align: center;
+	 line-height: 50px;
+	 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	 color: #fff;
+	 background: # 2f3036;
+	 text-decoration: none;
+ }
+
+ / * Estado de la libración para los mejores lazos a nivel * /
+ li: hover a {
+	 background: # 19c589;
+ }
+
+ / * Estilo para enlaces desplegables * /
+ li: hover ul a {
+	 background: # f3f3f3;
+	 color: # 2f3036;
+	 altura: 40px;
+	 line-height: 40px;
+ }
+
+ / * Estado de la libración de enlaces desplegables * /
+ li: hover ul a: hover {
+	 background: # 19c589;
+	 color: #fff;
+ }
