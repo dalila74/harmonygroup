@@ -941,6 +941,103 @@ ul.sf-menu li li li:hover ul {
 }
 
 
+	
+img {
+border: 5px solid #ccc;
+float: left;
+margin: 15px;
+-webkit-transition: margin 0.5s ease-out;
+-moz-transition: margin 0.5s ease-out;
+-ms-transition: margin 0.5s ease-out;
+transition: margin 0.5s ease-out;
+}
+.ex1 img:hover {
+margin-top: 2px;
+}
+
+#container {
+width: 300px;
+margin: 0 auto;
+}
+#ex2 img{
+height: 100px;
+width: 300px;
+margin: 15px 0;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+#ex2 img:hover {
+height: 133px;
+width: 400px;
+margin-left: -50px;
+}
+
+
+
+
+containerEx3 {
+width: 800px;
+margin: 0 auto;
+}
+#ex3 img {
+margin: 20px;
+border: 5px solid #eee;
+-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+}
+#ex3 img:hover {
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(-7deg);
+-ms-transform: rotate(-7deg);
+transform: rotate(-7deg);
+}
+ex4 {
+width: 730px;
+height: 133px;
+line-height: 0px;
+color: transparent; font-
+size
+: 50px;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 300;
+text-transform: uppercase;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+#ex4:hover {
+line-height: 133px;
+color: #575858;
+}
+#ex4 img{ float: left;
+margin: 0 15px;
+}
+
+#ex2 img:hover {
+height: 133px;
+width: 400px;
+margin-left: -50px;
+/*** aquí va la sombra ***/
+-webkit-box-shadow: 0 0 5px #999;
+-moz-box-shadow: 0 0 5px #999;
+-ms-box-shadow: 0 0 5px #999;
+box-shadow: 0 0 5px #999;
+}
+
+
+
+
+
+
+
+
 
 
 
