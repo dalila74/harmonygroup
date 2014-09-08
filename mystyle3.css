@@ -1,0 +1,17 @@
+ / * Estilos Responsive * /
+
+ pantallamedia y (max-width: 760px) {
+	 / * Hacer aparecen enlaces desplegables en línea * /
+	 ul {
+		 posición: estática;
+		 display: none;
+	 }
+	 / * Crear espacio vertical * /
+	 li {
+		 margin-bottom: 1px;
+	 }
+	 / * Hacer todos los enlaces del menú ancho * /
+	 ul li, li a {
+		 width: 100%;
+	 }
+ }
