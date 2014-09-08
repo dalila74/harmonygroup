@@ -137,6 +137,38 @@ a.button span {
 
 }
 
+#boton1{
+background:-moz-linear-gradient(#f9f9f9 0%,#DADADA 100%);
+background:-ms-linear-gradient(#f9f9f9 0%,#DADADA 100%);
+background:-o-linear-gradient(#f9f9f9 0%,#DADADA 100%);
+background:-webkit-linear-gradient(#f9f9f9 0%,#DADADA 100%);
+background:linear-gradient(#f9f9f9 0%,#DADADA 100%);
+border:solid 1px #DEDEDE;
+border-radius:5px;
+text-align:center;
+padding:5px;
+color:#333;
+width:75px;
+}
+#boton1:hover{
+background:-moz-linear-gradient(#fff 0%,#DEDEDE 100%);
+color:#999;
+} 
+
+
+
+  .boton{
+        font-size:10px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        background:#638cb5;
+        border:0px;
+        width:80px;
+        height:19px;
+       }
+
+
  
 
 a.button-left span {
