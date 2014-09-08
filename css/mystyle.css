@@ -27,6 +27,43 @@
 	z-index: 1; 
 }
 
+
+ul {
+    padding: 5px;
+    margin: 10px 0;
+    list-style: none;
+    float: left;
+}
+ 
+ul li {
+    float: left;
+    display: inline; /*For ignore double margin in IE6*/
+    margin: 0 10px;
+}
+ 
+ul li a {
+    text-decoration: none;
+    float:left;
+    color: #999;
+    cursor: pointer;
+    font: 900 14px/22px "Arial", Helvetica, sans-serif;
+}
+ 
+ul li a span {
+    margin: 0 10px 0 -10px;
+    padding: 1px 8px 5px 18px;
+    position: relative; /*To fix IE6 problem (not displaying)*/
+    float:left;
+}
+
+ul.blue li a.current, ul.blue li a:hover {
+    background: url(images/blue.png) no-repeat top right;
+    color: #0d5f83;
+}
+ 
+ul.blue li a.current span, ul.blue li a:hover span {
+    background: url(images/blue.png) no-repeat top left;
+}
 .imgPrueba {
 	background-image:url(/imagenes/prueba.gif);
 	background-position:top center;
@@ -56,6 +93,43 @@
     position: relative;
     top: -5px;
     }
+     .button { /* clase general */
+  border: 1px solid #dedede;
+  border-radius: 3px;
+  color: #555;
+  display: inline-block;
+  font: bold 12px/12px HelveticaNeue, Arial;
+  padding: 8px 11px;
+  text-decoration: none;
+}
+
+.button.white{
+  background: #f5f5f5;
+  border-color: #dedede #d8d8d8 #d3d3d3;
+  box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+  color: #555;
+  text-shadow: 0 1px 0 #fff;
+  background: -moz-linear-gradient(top,  #f9f9f9, #f0f0f0);
+  background: -webkit-linear-gradient(top,  #f9f9f9, #f0f0f0);
+  background: o-linear-gradient(top,  #f9f9f9, #f0f0f0);
+  background: ms-linear-gradient(top,  #f9f9f9, #f0f0f0);
+  background: linear-gradient(top,  #f9f9f9, #f0f0f0);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#f0f0f0');
+}
+
+.button.white:hover{
+    background: #f4f4f4;
+    border-color: #c7c7c7 #c3c3c3 #bebebe;
+    box-shadow: 0 1px 1px #ebebeb, inset 0 1px 0 #f3f3f3;
+    text-shadow: 0 1px 0 #fdfdfd;
+    background: -moz-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -webkit-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -o-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -ms-linear-gradient(top,  #efefef, #f8f8f8);
+    background: linear-gradient(top,  #efefef, #f8f8f8);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#f8f8f8');
+}
+     
      
     /* Rotate every fifth image by 5 degrees and offset it */
     ul.polaroids li:nth-child(5n) a {
@@ -134,7 +208,45 @@ a:hover:after {
 a:hover span {
   opacity: 1;
 }
-    
+
+
+   a { margin: 1em 0; float: left; clear: left; }
+ 
+.rss {
+  color: #E37529;
+  padding: 0 0 0 18px;
+  background: #FFF url(imagenes/rss.gif) no-repeat left center;
+}
+ 
+.pdf {
+  padding: 0 0 0 22px;
+  background: #FFF url(imagenes/pdf.png) no-repeat left center;
+}
+ 
+<a href="#">Enlace con el estilo por defecto</a>
+ 
+<a class="rss" href="#">Enlace a un archivo RSS</a>
+ 
+<a class="pdf" href="#">Enlace a un documento PDF</a>
+
+
+a { margin: 1em 0; float: left; clear: left; }
+a.boton {
+  text-decoration: none;
+  background: #EEE;
+  color: #222;
+  border: 1px outset #CCC;
+  padding: .1em .5em;
+}
+a.boton:hover {
+  background: #CCB;
+}
+a.boton:active {
+  border: 1px inset #000;
+}
+ 
+<a class="boton" href="#">Guardar</a>
+<a class="boton" href="#">Enviar</a>
     
     
     
