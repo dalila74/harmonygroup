@@ -33,6 +33,142 @@
   font: 13px Tahoma, Arial, sans-serif;
   padding: 10px 15px;
   text-decoration: none;
+  
+  
+  
+   
+
+.clear { /* contenedor para los botones flotantes  */
+
+    overflow: hidden;
+
+    width: 100%;
+
+}
+
+ 
+
+a.button {
+
+    background: transparent url(‘bttn_right.jpg’) no-repeat scroll top right;
+
+    color: #444;
+
+    display: block;
+
+    float: left;
+
+    font: normal 12px arial, sans-serif;
+
+    height: 24px;
+
+    margin-right: 6px;
+
+    padding-right: 18px; /*
+no
+debe sobrepasa la anchura de la imagen que utilizamos arriba */
+
+    text-decoration: none;
+
+}
+
+ 
+
+a.button span {
+
+    background: transparent url(‘bttn_left.jpg’) no-repeat;
+
+    display: block;
+
+    line-height: 14px;
+
+    padding: 5px 0 5px 18px;
+
+}
+
+
+  a.button-left {
+
+    color: #444;
+
+    display: block;
+
+    float: left;
+
+    font: normal 12px arial, sans-serif;
+
+    height: 24px;
+
+    margin-right: 6px;
+
+    padding-right: 24px; /* no debe sobrepasa la anchura de la imagen que utilizamos arriba */
+
+    text-decoration: none;
+
+}
+
+ 
+
+a.button-left span {
+
+    background: transparent url(’bttn_left.jpg’) no-repeat;
+
+    display: block;
+
+    line-height: 14px;
+
+    padding: 5px 0 5px 10px;
+
+}
+
+a.button-right {
+
+            background: transparent url(’bttn_right.jpg’) no-repeat top right;
+
+    color: #444;
+
+    display: block;
+
+    float: left;
+
+    font: normal 12px arial, sans-serif;
+
+    height: 24px;
+
+    margin-right: 6px;
+
+    padding-right: 10px; /* no debe sobrepasa la anchura de la imagen que utilizamos arriba */
+
+    text-decoration: none;
+
+}
+
+ 
+
+a.button-right span {
+
+    display: block;
+
+    line-height: 14px;
+
+    padding: 5px 0 5px 24px;
+
+}
+
+.icon-seg{ background: transparent url(’bttn_right_sig.jpg’) no-repeat top right;}
+
+.icon-bef{ background: transparent url(’bttn_left_bef.jpg’) no-repeat top left;}
+
+.icon-ok{ background: transparent url(’bttn_right_ok.jpg’) no-repeat top right;}
+
+.icon-cancel{ background: transparent url(’bttn_right_cancel.jpg’) no-repeat top right;}
+
+.icon-down{ background: transparent url(’bttn_right_down.jpg’) no-repeat top right;}
+
+ 
+  
+  
+  
   cursor: pointer;
   border: 1px solid #333;
   letter-spacing: 1px;
